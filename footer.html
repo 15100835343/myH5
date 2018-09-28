@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<base />
+		<title>官网尾部</title>
+		<style>
+			body {
+				width: 1352px;
+			}
+			
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#footer {
+				width: 1226px;
+				height: 400px;
+				margin: 0px;
+				margin-left: 63px;
+			}
+			
+			.footer_top {
+				width: 1226px;
+				height: 80px;
+				border-bottom: 1px solid #E0E0E0;
+			}
+			
+			.footer_top ul {
+				padding: 27px 0px;
+				list-style: none;
+			}
+			
+			.footer_top ul li {
+				float: left;
+				width: 244px;
+				height: 25px;
+				text-align: center;
+				border-right: 1px solid #E0E0E0;
+			}
+			/*去除最后一个边框*/
+			
+			.footer_top>ul>li:last-child {
+				border: none;
+			}
+			
+			.footer_top ul li a {
+				color: #616161;
+				text-decoration: none;
+			}
+			
+			.footer_top ul li a:hover {
+				color: #FF6700;
+				text-decoration: none;
+			}
+			
+			.footer_mid {
+				width: 100%;
+				height: 112px;
+				margin: 40px 0px;
+			}
+			
+			.fmid_left {
+				float: left;
+				width: 978px;
+				height: 118px;
+				/*padding: 40px 0px;*/
+				border-right: 1px solid #E0E0E0;
+			}
+			
+			.fml {
+				float: left;
+				width: 163px;
+				height: 112px;
+			}
+			
+			.fml ul {
+				list-style: none;
+				font-size: 16px;
+				color: #616161;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.fml ul li {
+				height: 10px;
+				margin-top: 18px;
+			}
+			
+			.fml ul li a {
+				font-size: 13px;
+				color: #757575;
+				text-decoration: none;
+			}
+			
+			.fml ul li a:hover {
+				color: #FF6700;
+			}
+			/*第二部分右侧*/
+			
+			.fmid_right {
+				float: left;
+				width: 200px;
+				height: 118px;
+				margin-left: 20px;
+			}
+			
+			.fmid_right p {
+				text-align: center;
+				margin: 0px;
+			}
+			
+			#mess {
+				width: 120px;
+				height: 28px;
+				margin: 20px 0 0 40px;
+				border: 1px solid #FF6700;
+				font-size: 14px;
+				vertical-align: middle;
+			}
+			
+			#message {
+				text-decoration: none;
+				color: #FF6700;
+			}
+			
+			#mess:hover {
+				background-color: #FF6700;
+			}
+			
+			#mess :hover #mess1 {
+				opacity: 0;
+			}
+			
+			#mess:hover #message {
+				color: white;
+				/*background-color: #FF6700;*/
+			}
+			
+			#message img {
+				width: 20px;
+				height: 20px;
+				margin: 3px 0 0 18px;
+			}
+			
+			#mess2 {
+				opacity: 0;
+			}
+			
+			#mess :hover #mess2 {
+				opacity: 1;
+				position: relative;
+				left: -40px;
+			}
+			
+			.fbom {
+				width: 1226px;
+			}
+			.fbom_logo{
+				float: left;
+				margin-right: 10px;
+			}
+			.fbom_text{
+				float: left;
+				width: 698px;
+				color: #b0b0b0;
+				font-size: 12px;
+			}
+			.fbom a{
+				height: 14px;
+				text-decoration: none;
+				color: #b0b0b0;
+				text-align: center;
+			}
+			.fbom a:hover{
+				color: #FF6700;
+			}
+			.sites{
+				line-height: 18px;
+				margin: 0px;
+			}
+			.sites a{
+				color: #757575;
+				height: 14px;
+			}
+			.sep{
+				margin: 0px 3px;
+				font-size: 12px;
+				
+				
+			}
+			.fbom_link{
+				float: right;
+				margin-top: 4px;
+				
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="footer">
+			<div class="footer_top">
+				<ul>
+					<li>
+						<a href="#">预约维修服务</a>
+					</li>
+					<li>
+						<a href="#">7天无理由退货</a>
+					</li>
+					<li>
+						<a href="#">15天免费换货</a>
+					</li>
+					<li>
+						<a href="#">满150元包邮</a>
+					</li>
+					<li>
+						<a href="#">520余家售后网点</a>
+					</li>
+
+				</ul>
+			</div>
+			<div class="footer_mid">
+				<div class="fmid_left">
+					<div class="fml">
+						<ul>
+							帮助中心
+							<li>
+								<a href="#">账户管理</a>
+							</li>
+							<li>
+								<a href="#">购物指南</a>
+							</li>
+							<li>
+								<a href="#">订单操作</a>
+							</li>
+						</ul>
+					</div>
+					<div class="fml">
+						<ul>
+							服务支持
+							<li>
+								<a href="#">售后政策</a>
+							</li>
+							<li>
+								<a href="#">自助服务</a>
+							</li>
+							<li>
+								<a href="#">相关下载</a>
+							</li>
+						</ul>
+					</div>
+					<div class="fml">
+						<ul>
+							线下门店
+							<li>
+								<a href="#">小米之家</a>
+							</li>
+							<li>
+								<a href="#">服务网点</a>
+							</li>
+							<li>
+								<a href="#">授权体验店</a>
+							</li>
+						</ul>
+					</div>
+					<div class="fml">
+						<ul>
+							关于小米
+							<li>
+								<a href="#">了解小米</a>
+							</li>
+							<li>
+								<a href="#">加入小米</a>
+							</li>
+							<li>
+								<a href="#">投资者关系</a>
+							</li>
+						</ul>
+					</div>
+					<div class="fml">
+						<ul>
+							关注我们
+							<li>
+								<a href="#">新浪微博</a>
+							</li>
+							<li>
+								<a href="#">官方微信</a>
+							</li>
+							<li>
+								<a href="#">联系我们</a>
+							</li>
+						</ul>
+					</div>
+					<div class="fml">
+						<ul>
+							特色服务
+							<li>
+								<a href="#">F码通道</a>
+							</li>
+							<li>
+								<a href="#">礼物码</a>
+							</li>
+							<li>
+								<a href="#">防伪查询</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="fmid_right">
+					<p style="font-size: 20px; color: #FF6700;">400-100-5678</p>
+					<p style="font-size: 13px; color: #616161; margin-top: 5px;">
+						周一至周日&nbsp;8:00-18:00 <br>（仅收市话费）
+					</p>
+					<div id="mess">
+						<a id="message" href="#"> <img id="mess1" src=".      img/footer/message1.png" /> <img id="mess2" src=".      img/footer/message2.png" />
+							<p style="position: relative; top: -22px; left: 10px;">联系客服</p>
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="fbom">
+				<div class="fbom_logo">
+					<img src="img/logo-footer.png" />
+				</div>
+				
+
+				<div class="fbom_text">
+
+					<p class="sites">
+						<a href="//www.mi.com/index.html">小米商城</a><span 
+						class="sep">|</span><a href="https://www.miui.com/">MIUI</a><span 
+						class="sep">|</span><a href="https://home.mi.com/index.html">米家</a><span 
+						class="sep">|</span><a href="http://www.miliao.com/">米聊</a><span 
+						class="sep">|</span><a href="https://www.duokan.com/">多看</a><span 
+						class="sep">|</span><a href="http://game.xiaomi.com/">游戏</a><span 
+						class="sep">|</span><a href="http://www.miwifi.com/">路由器</a><span 
+						class="sep">|</span><a href="//www.mi.com/micard/">米粉卡</a><span 
+						class="sep">|</span><a href="https://b.mi.com/?client_id=180100031058&masid=17409.0358">政企服务</a><span 
+						class="sep">|</span><a href="https://xiaomi.tmall.com/">小米天猫店</a><span 
+						class="sep">|</span><a href="https://www.mi.com/about/privacy/">隐私政策</a><span 
+						class="sep">|</span><a href="https://static.mi.com/feedback/">问题反馈</a><span 
+						class="sep">|</span><a href="//www.mi.com/jiancha/">廉正举报</a><span 
+						class="sep">|</span><a href="#J_modal-globalSites" data-toggle="modal">Select Region</a>
+					</p>
+					<p>
+						&copy;
+						<a href=" " title="mi.com">mi.com</a>
+						京ICP证110507号
+						<a href="http://www.miitbeian.gov.cn/">京ICP备10046444号</a>
+						<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134">京公网安备11010802020134号 </a>
+						<a href="//www.mi.com/culture-license/">京网文[2017]1530-131号</a>
+						<a href="//www.mi.com/business-license/">营业执照</a><br>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+					</p>
+
+				</div>
+
+				<div class="fbom_link">
+					<a href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&lang=zh-cn">
+						<img src="img/footer_01.png" alt="TRUSTe Privacy Certification" style="width: 90px;height: 30px;"/>
+					</a> 
+					<a href="//search.szfw.org/cert/l/CX20120926001783002010">
+						<img src="img/footer_02.png" alt="诚信网站" />
+					</a>
+					<a href="https://ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&ct=df&pa=461082">
+						<img src="img/footer_03.png" alt="可信网站" />
+					</a>
+					<a href="http://www.315online.com.cn/member/315140007.html">
+						<img src="img/footer_04.png" alt="网上交易保障中心" />
+					</a>
+					<a href="https://www.mi.com/service/buy/commitment/">
+						<img src="img/footer_05.png" alt="诚信经营 放心消费" />
+					</a>
+					
+					
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
